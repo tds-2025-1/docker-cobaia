@@ -1,0 +1,3 @@
+docker tag app ghcr.io/your-username/app:latest
+echo GITHUB_PAT | docker login ghcr.io -u username --password-stdin
+docker push ghcr.io/username/app:latest
